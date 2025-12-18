@@ -28,7 +28,7 @@ jobs:
           cache-read-only: false
           cache-cleanup: never
 
-      - name: Fabric Gradle build
+      - name: Fabric Gradle builde
         run: ./gradlew -I init.gradle fabric:build
 
       - name: NeoForge Gradle build
